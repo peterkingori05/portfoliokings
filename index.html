@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter King'ori - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            background: #444;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        section {
+            padding: 2rem;
+        }
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-info {
+            margin: 1rem 0;
+        }
+        .profile-photo {
+            display: block;
+            color: aqua;
+            margin: 1rem auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        form {
+            margin-top: 1rem;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Peter King'ori</h1>
+        <p>IT Specialist | Aspiring Technologist</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.png" alt="Peter King'ori" class="profile-photo">
+        <p>As a passionate IT professional with a solid foundation in technology and problem-solving, I bring a wealth of experience in developing efficient solutions and exploring emerging tech trends to drive innovation. My proactive approach to learning and my commitment to excellence ensure that I deliver high-quality results in every project I undertake.
+
+            Technical Skills and Expertise:
+            
+            Proficient in various programming languages including Python, Java, and C++
+            
+            Experience with cloud platforms such as AWS, Azure, and Google Cloud
+            
+            Strong understanding of cybersecurity principles and best practices
+            
+            Expertise in database management and data analysis
+            
+            Professional Experience: With a diverse background in the IT industry, I have successfully led projects ranging from software development to IT infrastructure management. I thrive in dynamic environments and excel in both independent and collaborative settings.
+            
+            Personal Attributes:
+            
+            Adaptable and quick to learn new technologies
+            
+            Strong analytical and critical thinking skills
+            
+            Excellent communication and teamwork abilities
+            
+            Passionate about continuous improvement and staying updated with industry trends
+            
+            Hobbies and Interests: Outside of work, I enjoy experimenting with new programming languages, contributing to open-source projects, and participating in tech meetups. I am also an avid reader of science fiction and a chess enthusiast..</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, JavaScript, C++, C#, C </li>
+            <li>Web Development: HTML, CSS, JavaScript, React</li>
+            <li>Database Management: MySQL, MongoDB</li>
+            <li>Version Control: Git, GitHub</li>
+            <li>Networking, IT Support, Cybersecurity Basics</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>SPORTSEQUIPMENTS</strong>: My first ever serious project , it was supposed to be a simple 10 marks assignment but my friends and I took it seriously and thats where our collaboration journey began and the urge to learn and always be in hunger for knowledge. To get to the point <strong>SPORTSEQUIPMENTS</strong>  is a simple website where one can sell different sportsequipments, leave comments, add suggestions of equipments that are not available.
+                <br>GitHub Link: <a href="https://github.com/peterkingori05/sports-equipments">Project Repo</a>
+            </li>
+            <li>
+                <strong>SPORTSSELECTION</strong>: This was my final project in campus ,at this point I am well versed with almost all the Languages , the structure and flow of different projects .We had a choice to choose what kind of projects we wanted <strong>IOT, WEBSITE, SYSTEMS which i chose, WEBAPP, APPLICATIONS</strong> what inspired me to develop sportsselection system ,I almost forgot I am a sports person so back then when I joined Kabarak the method that was used to take identify sports that freshmen were interested in was manual in that papers were passed around where we wrote our interest and sports , since then I was inspired to deal with that outdated procedure . In sportsselection system you basically <ol>create an account<ol> <ol>choose interests,</ol> choose a sport, <ol> up a profile </ol> there is also an admins page with numerous tasks like approving to join school team request. I can write about the project pages but I would rather let you dive into it and explore.
+                <br>GitHub Link: <a href="https://github.com/peterkingori05/Sports-Selections"><h2>Project Repo</h2></a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p class="contact-info">📞 0717684672 | 📧 <a href="mailto:kingorip40@gmail.com">kingorip40@gmail.com</a></p>
+        <p>Feel free to reach out for collaboration, projects, or tech opportunities!</p>
+        <form action="https://formspree.io/f/example" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Peter King'ori. All Rights Reserved.</p>
+        <p>🔗 <a href="https://linkedin.com/in/example" target="_blank">LinkedIn</a> | <a href="resume.pdf" download>Download My Resume</a></p>
+    </footer>
+</body>
+</html>
